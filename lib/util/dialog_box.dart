@@ -4,7 +4,7 @@ import 'package:todo_app/util/my_button.dart';
 class DialogBox extends StatelessWidget {
   final TextEditingController controller;
   final void Function() onSave;
-  DialogBox({super.key, required this.controller, required this.onSave});
+  const DialogBox({super.key, required this.controller, required this.onSave});
 
   @override
   Widget build(BuildContext context) {
